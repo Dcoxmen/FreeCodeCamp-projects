@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Survey Form</title>
+    <link href="surveyform.css" rel="stylesheet" type="text/css">
+     <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">    
+</head>
+<body>
+    <div id="main">
+    <div class="container">
+      <h1 id="title">DJ Survey Form. </h1>
+        <p id="description">Let us know what type of music you like.</p>
+        <form id="survey-form">
+          <div class="row">
+            <label id="name-label" for="name">Name</label>
+            <input name="name" type="text" required="required" id="name" placeholder="Name is required">
+          </div>
+          <div class="row">
+            <label id="email-label" for="email">Email</label>
+            <input name="email" type="email" required="required" id="email" placeholder="valid email required">
+          </div>
+          <div class="row">
+            <label id="number-label" for="number">Hours</label>
+            <input name="hours" type="number" required="required" id="number" placeholder="How many hours?" max="6" min="1">
+          </div>
+          <div class="row">
+            <label id="event-label" for="event">Event Type</label>
+            <select name="event" id="dropdown">
+              <option value="1">Wedding</option>
+              <option value="2">Birthday</option>
+              <option value="3">Company</option>
+              <option value="4">Reunion</option>
+              <option value="5">Meeting</option>
+              </select>
+          </div>
+          <div class="row">
+            <label for="AddEquipt">Addition PA</label>
+                  <input type="radio" name="AddEquipt" value="yes" id="AddEquipt_0">
+                  
+                <br>
+                <label for="AddEquipt">Wireless mic</label>
+                  <input type="radio" name="AddEquipt" value="yes" id="AddEquipt_1">
+                  
+                <br>
+            <label for="AddEquipt">DJ lights</label>
+                  <input type="radio" name="AddEquipt" value="yes" id="AddEquipt_2">
+          </div>
+          <div class="row">
+            <p>
+              <label>
+                <input type="checkbox" name="Genres" value="Pop" id="Genres_0">
+                Pop</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="R&B" id="Genres_1">
+                RnB</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Country" id="Genres_2">
+                Country</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Latin" id="Genres_3">
+                Latin</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Reggae" id="Genres_4">
+                Reggae</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Hip Hop" id="Genres_5">
+                Hip Hop</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Oldies" id="Genres_6">
+                Oldies</label>
+              <br>
+              <label>
+                <input type="checkbox" name="Genres" value="Big Band" id="Genres_7">
+                Big Band</label>
+              <br>
+            </p>
+          </div>
+          <div class="row">
+            <textarea placeholder="additional notes"></textarea>
+          </div>
+            
+          <div class="row"><input type="submit" id="submit"></div>
+      </form>
+    </div>
+    </div>    
+   <footer>
+    <div class="container text-center"><h5>freecodecamp.com</h5></div>
+    </footer>   
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>   
+</body>
+    
+</html>
