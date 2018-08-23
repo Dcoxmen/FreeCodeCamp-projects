@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+   font-size: 100px;
+}
+#tribute-info{
+    margin-left: 165px;
+    margin-right: 125px;
+}
+#headline {
+    margin-left: 40px;
+}
+
+#img-div{
+    display: block;
+   max-width: 100%; 
+   text-align: center; 
+}
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
