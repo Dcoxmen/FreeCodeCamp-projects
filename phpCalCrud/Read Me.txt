@@ -1,0 +1,38 @@
+This example uses a shipping scenerio to display this application.
+
+This app is a CRUD system that uses php, html, css and javascript,ajax all displaying data from a postgres database.
+
+The ECeditMulti.php page displays all available shipments for a carrier to bid on and come pick up from the dock. 
+Only the available slots display in this list because the query uses where email = "open". Once the bidder enters an email
+the shipment is no longer displayed in this  list. It is however, added to the calender view of the shippers admin where
+this admin can do some basic editing from the calendar view. I have disabled drag and drop features in calendar to keep it
+basic. 
+
+
+Bidder view list of available shipments.
+ECeditMulti.php
+ECeditMultiupdate.php
+
+
+
+Calendar view that shipper admin uses to view latest bids for shipments.
+EventCal.php.
+
+
+
+Include files(queries,js functions, ajax,etc)
+updatet3.php  
+insertT2.php
+junk1.js
+carriersts.js
+
+
+
+code that emails upon update of file
+carrirtslotqEC3.php
+
+
+
+Calendar Crud video showing how this code works.
+https://drive.google.com/file/d/1-tVCeskwUUU5OdijeGitQ-VGKO2zWWKS/view
+
