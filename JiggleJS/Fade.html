@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Change Shape Button</title>
+    <!--  -->
+    <style type="text/css">
+        /*Initial css style applied to box1 div element*/
+        div#box1 {
+            background: #9DCEFF;
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- This is an example of a fade out and fade in when clicking a button-->
+    <button onClick="fadeOut('box1');">Fade Out</button>
+    <button onClick="fadeIn('box1');">Fade In</button>
+    <div id="box1">Box Content Here.</div>
+    
+    <!-- This are the javascript functions that power the buttons onClick events. I applied transitions properties using css3 style elements within the javascript-->
+    <script>
+        function fadeOut (el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "opacity 1.0s linear 0s";
+            elem.style.opacity = 0;
+        }
+         function fadeIn (el){
+            var elem = document.getElementById(el);
+            elem.style.transition = "opacity 1.0s linear 0s";
+            elem.style.opacity = 1;
+        }       
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: #000000;
+    color: #E0E0E0;
+}
+h1{
+   font-size: 100px;
+}
+p{
+    text-align: justify;
+}
+#tribute-info{
+
+}
+#headline {
+    text-align: center;
+    
+
+}
+
+#img-div{
+    display: block;
+   max-width: 100%; 
+   text-align: center; 
+}
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+a:link {
+    color: #E8E6E6;
+}
+a:visited {
+    color: #E8E6E6;
+}
+a:hover {
+    color: #B4B1B1;
+}
+a:active {
+    color: #E8E6E6;
+}
